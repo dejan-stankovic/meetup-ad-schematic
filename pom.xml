@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.supplyframe.Main</mainClass>
+                            <mainClass>com.hackaday.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
