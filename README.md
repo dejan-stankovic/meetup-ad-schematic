@@ -89,4 +89,4 @@ Alternatively, if you only want to *unpack* the Compund Document, invoke without
     
 There is very little error checking (or none, as the case may be), because I wanted to keep the code as simple as possible. If you want to improve, please hack away!
 
-If you use this or have any suggestions please let me know dstanko.au@gmail.com or dstanko@supplyframe.com
+If you use this or have any suggestions please let me know dstanko.au@gmail.com.
