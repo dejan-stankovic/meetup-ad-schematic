@@ -10,6 +10,7 @@ Clone repository and then run following:
     java -jar target/final-altium-schematic-importer-1.0.jar -c <path/to/your/file.SchDoc>
     
 This produces output similar to: 
+
   Successful!
   ```json
   {
