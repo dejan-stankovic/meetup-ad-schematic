@@ -1,17 +1,29 @@
 # HARDWARE DIDACTIC GALACTIC MEETUP
 
+October 9th meetup @ SupplyFrame San Francisco office
+ 
 ## Reverse Engineering Design File Formats
+
+More details can be found at https://hackaday.io/projects/hacker/185
  
 ### Compiling and running
 
-Clone repository and then run following:
+Clone repository and then run following to compile the code:
 
     mvn install compile package
+    
+or just:
+
+    mvn package
+
+    
+This creates a **JAR** file with all the dependencies so that you can easily run on a command line: 
+
     java -jar target/final-altium-schematic-importer-1.0.jar -c <path/to/your/file.SchDoc>
     
-This produces output similar to: 
+Output looks something like: 
 
-  Successful!
+  **Successful!**
   ```json
   {
     "RECORD": "31",
@@ -70,3 +82,11 @@ This produces output similar to:
    .....
   }
   ```
+  
+Alternatively, if you only want to *unpack* the Compund Document, invoke without **-c** parameter: 
+
+    java -jar target/final-altium-schematic-importer-1.0.jar <path/to/your/file.SchDoc>
+    
+There is very little error checking (or none, as the case may be), because I wanted to keep the code as simple as possible. If you want to improve, please hack away!
+
+If you use this or have any suggestions please let me know dstanko.au@gmail.com or dstanko@supplyframe.com
