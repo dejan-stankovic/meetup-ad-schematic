@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: com/supplyframe
+Main-Class: com.supplyframe.Main
+
